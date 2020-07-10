@@ -1,14 +1,6 @@
 cradle:
-  multi:
-
+  cabal:
     - path: ./app/hspaint
-      config:
-        cradle:
-          cabal:
-            component: exe:hspaint
-
+      component: exe:hspaint
     - path: ./app/hspaint0
-      config:
-        cradle:
-          cabal:
-            component: exe:hspaint0
+      component: exe:hspaint0

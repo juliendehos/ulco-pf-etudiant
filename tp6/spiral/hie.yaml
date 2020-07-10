@@ -1,7 +1,4 @@
 cradle:
-  multi:
+  cabal:
     - path: ./app
-      config:
-        cradle:
-          cabal:
-            component: exe:spiral
+      component: exe:spiral

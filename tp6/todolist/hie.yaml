@@ -1,15 +1,7 @@
 cradle:
-  multi:
-
+  cabal:
     - path: ./app/todolist
-      config:
-        cradle:
-          cabal:
-            component: exe:todolist
-
+      component: exe:todolist
     - path: ./app/todolist0
-      config:
-        cradle:
-          cabal:
-            component: exe:todolist0
+      component: exe:todolist0
             

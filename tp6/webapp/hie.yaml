@@ -1,14 +1,6 @@
 cradle:
-  multi:
-
+  cabal:
     - path: ./app/webapp
-      config:
-        cradle:
-          cabal:
-            component: exe:webapp
-
+      component: exe:webapp
     - path: ./app/webapp0
-      config:
-        cradle:
-          cabal:
-            component: exe:webapp0
+      component: exe:webapp0

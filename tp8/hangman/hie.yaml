@@ -1,8 +1,4 @@
 cradle:
-  multi:
-
+  cabal:
     - path: ./app/hangman
-      config:
-        cradle:
-          cabal:
-            component: exe:hangman
+      component: exe:hangman
