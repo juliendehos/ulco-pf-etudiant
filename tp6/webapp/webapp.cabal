@@ -11,11 +11,7 @@ common deps
 
 executable webapp
     import:             deps
-    hs-source-dirs:     app/webapp
+    hs-source-dirs:     app
     main-is:            Main.hs
 
-executable webapp0
-    import:             deps
-    hs-source-dirs:     app/webapp0
-    main-is:            Main.hs
 

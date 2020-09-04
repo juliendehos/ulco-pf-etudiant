@@ -19,11 +19,6 @@ common deps
 
 executable todolist
     import:             deps
-    hs-source-dirs:     app/todolist
-    main-is:            Main.hs
-
-executable todolist0
-    import:             deps
-    hs-source-dirs:     app/todolist0
+    hs-source-dirs:     app
     main-is:            Main.hs
 

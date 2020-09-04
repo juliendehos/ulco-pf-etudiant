@@ -18,11 +18,7 @@ common deps
 
 executable hspaint
     import:             deps
-    hs-source-dirs:     app/hspaint
+    hs-source-dirs:     app
     main-is:            Main.hs
 
-executable hspaint0
-    import:             deps
-    hs-source-dirs:     app/hspaint0
-    main-is:            Main.hs
 
