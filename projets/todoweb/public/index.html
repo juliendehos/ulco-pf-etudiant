@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>todoweb</title>
+    </head>
+    <body>
+
+<h1>todoweb</h1>
+
+<h2>tasks</h2>
+<ul id="tasksUl"> </ul>
+
+<h2>add task</h2>
+<form method="post" action="/add">
+    <input type="text" name="label"> 
+    <input type="submit" value="Add">
+</form>
+
+
+<script>
+
+const myLi = document.createElement("li");
+myLi.innerHTML = `TODO - <a href="https://www.haskell.org/">go to haskel.org</a>`;
+tasksUl.appendChild(myLi);
+
+fetch("/tasks")
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+</script>
+
+
+    </body>
+</html>
+
