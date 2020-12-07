@@ -20,4 +20,7 @@ main = do
     forM_ [0 .. 9] $ \i -> do
         let c = maze V.! i
         putStr [c]
+    putStrLn "\npress a key..."
+    x <- getChar
+    putStrLn ("\nyou pressed: " ++ [x])
 
