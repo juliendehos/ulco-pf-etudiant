@@ -2,4 +2,3 @@
 *.o
 .stack-work
 dist*
-.vscode
