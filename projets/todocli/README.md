@@ -8,4 +8,5 @@
 - [] add/del
 - [] do/undo
 - [] enregistrer le fichier à la fin
+- [] message d'aide du menu
 
