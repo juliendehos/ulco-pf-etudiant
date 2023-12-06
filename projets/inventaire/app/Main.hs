@@ -1,10 +1,10 @@
 module Main where
 
-import System.Environment
+-- import System.Environment
 
-import Produit
-import Inventaire
-import Stock
+-- import Produit
+-- import Inventaire
+-- import Stock
 
 main :: IO ()
 main = do

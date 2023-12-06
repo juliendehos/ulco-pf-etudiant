@@ -1,6 +1,6 @@
 module Stock where
 
-import Data.Maybe
+-- import Data.Maybe
 
 import Produit
 

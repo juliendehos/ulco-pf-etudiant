@@ -1,7 +1,7 @@
 module InventaireSpec (main, spec) where
 
 import Test.Hspec
-import Inventaire
+-- import Inventaire
 
 main :: IO ()
 main = hspec spec

@@ -1,7 +1,7 @@
 module StockSpec (main, spec) where
 
 import Test.Hspec
-import Stock
+-- import Stock
 
 main :: IO ()
 main = hspec spec

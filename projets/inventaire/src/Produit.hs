@@ -1,7 +1,7 @@
 module Produit where
 
-import Data.List.Split (splitOn)
-import Text.Read (readMaybe)
+-- import Data.List.Split (splitOn)
+-- import Text.Read (readMaybe)
 
 type Produit = (String, Int)
 

@@ -1,9 +1,9 @@
 module Inventaire where
 
-import Data.List (groupBy, sortBy)
+-- import Data.List (groupBy, sortBy)
 
 import Produit
-import Stock
+-- import Stock
 
 type Inventaire = [Produit]
 
