@@ -32,7 +32,7 @@ main = do
             json tasks
 
         post "/add" $ do
-            label <- param "label"
+            label <- formParam "label"
             liftIO $ putStrLn ("TODO add -> " ++ label)
             redirect "/"
 

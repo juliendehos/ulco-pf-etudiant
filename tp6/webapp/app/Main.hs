@@ -14,6 +14,6 @@ main = do
             text "TODO"
 
         get "/add/:name" $ do
-            name <- param "name"
+            name <- captureParam "name"
             text $ name <> " added"
 
