@@ -4,6 +4,6 @@ dépôt étudiant du [module de PF](https://juliendehos.gitlab.io/posts/pf/index
 
 - NOM : TODO
 - PRENOM : TODO
-- GROUPE : TODO
+- GROUPE : TODO (1, 2)
 
 
